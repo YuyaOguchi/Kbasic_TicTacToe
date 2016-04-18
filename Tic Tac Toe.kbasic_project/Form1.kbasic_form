@@ -1,0 +1,1154 @@
+﻿Begin Form *
+    Background = "abstract-background.jpg"
+    Caption = "Tic Tac Toe"
+    DockTitleVisible = True
+    DrawOnPaint = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 619
+    LoadedHeight = 616
+    LoadedWidth = 480
+    LoadedX = 329
+    LoadedY = 3
+    MouseTracking = True
+    Opacity = 100
+    Resizable = True
+    SQLDelete = True
+    SQLInsert = True
+    SQLUpdate = True
+    Visible = True
+    Width = 480
+    X = 275
+    Y = 1
+
+
+  Begin Label lbl2
+    Caption = ""
+    DrawOnPaint = True
+    Enabled = False
+    FontColor = "&HFFFFFF"
+    FontSize = 125
+    GlobalX = 0
+    GlobalY = 0
+    Height = 106
+    LoadedHeight = 106
+    LoadedWidth = 108
+    LoadedX = 189
+    LoadedY = 52
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = True
+    Width = 108
+    WordWrap = True
+    X = 189
+    Y = 52
+  End
+
+  Begin Label lbl8
+    Caption = ""
+    DrawOnPaint = True
+    Enabled = False
+    FontColor = "&HFFFFFF"
+    FontSize = 125
+    GlobalX = 0
+    GlobalY = 0
+    Height = 107
+    LoadedHeight = 107
+    LoadedWidth = 114
+    LoadedX = 188
+    LoadedY = 339
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = True
+    Width = 114
+    WordWrap = True
+    X = 188
+    Y = 339
+  End
+
+  Begin Label lbl5
+    Caption = ""
+    DrawOnPaint = True
+    Enabled = False
+    FontColor = "&HFFFFFF"
+    FontSize = 125
+    GlobalX = 0
+    GlobalY = 0
+    Height = 113
+    LoadedHeight = 113
+    LoadedWidth = 115
+    LoadedX = 188
+    LoadedY = 195
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = True
+    Width = 115
+    WordWrap = True
+    X = 188
+    Y = 195
+  End
+
+  Begin Label lbl6
+    Caption = ""
+    DrawOnPaint = True
+    Enabled = False
+    FontColor = "&HFFFFFF"
+    FontSize = 125
+    GlobalX = 0
+    GlobalY = 0
+    Height = 116
+    LoadedHeight = 116
+    LoadedWidth = 122
+    LoadedX = 326
+    LoadedY = 195
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = True
+    Width = 122
+    WordWrap = True
+    X = 326
+    Y = 195
+  End
+
+  Begin Label lbl9
+    Caption = ""
+    DrawOnPaint = True
+    Enabled = False
+    FontColor = "&HFFFFFF"
+    FontSize = 125
+    GlobalX = 0
+    GlobalY = 0
+    Height = 109
+    LoadedHeight = 109
+    LoadedWidth = 112
+    LoadedX = 335
+    LoadedY = 336
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = True
+    Width = 112
+    WordWrap = True
+    X = 335
+    Y = 336
+  End
+
+  Begin Label lbl1
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = ""
+    DrawOnPaint = True
+    Enabled = False
+    FocusOrder = 0
+    FontColor = "&HFFFFFF"
+    FontSize = 125
+    GlobalX = 0
+    GlobalY = 0
+    Height = 118
+    LoadedHeight = 118
+    LoadedWidth = 119
+    LoadedX = 48
+    LoadedY = 54
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TableViewOrder = 0
+    TableViewVisible = True
+    TableViewWidth = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 119
+    WordWrap = True
+    X = 48
+    Y = 54
+  End
+
+  Begin Label lbl4
+    Caption = ""
+    DrawOnPaint = True
+    Enabled = False
+    FontColor = "&HFFFFFF"
+    FontSize = 125
+    GlobalX = 0
+    GlobalY = 0
+    Height = 105
+    LoadedHeight = 105
+    LoadedWidth = 108
+    LoadedX = 44
+    LoadedY = 200
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = True
+    Width = 108
+    WordWrap = True
+    X = 44
+    Y = 200
+  End
+
+  Begin CommandButton cmd1
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = ""
+    Checked = False
+    DrawOnPaint = True
+    Enabled = False
+    Flat = False
+    FocusOrder = 0
+    FontColor = "&HFFFFFF"
+    FontSize = 125
+    GlobalX = 0
+    GlobalY = 0
+    Height = 136
+    LoadedHeight = 136
+    LoadedWidth = 132
+    LoadedX = 33
+    LoadedY = 44
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 132
+    X = 33
+    Y = 44
+  End
+
+  Begin Label lbl7
+    Caption = ""
+    DrawOnPaint = True
+    Enabled = False
+    FontColor = "&HFFFFFF"
+    FontSize = 125
+    GlobalX = 0
+    GlobalY = 0
+    Height = 104
+    LoadedHeight = 104
+    LoadedWidth = 101
+    LoadedX = 45
+    LoadedY = 341
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = True
+    Width = 101
+    WordWrap = True
+    X = 45
+    Y = 341
+  End
+
+  Begin Label lbl3
+    Caption = ""
+    DrawOnPaint = True
+    Enabled = False
+    FontColor = "&HFFFFFF"
+    FontSize = 125
+    GlobalX = 0
+    GlobalY = 0
+    Height = 116
+    LoadedHeight = 116
+    LoadedWidth = 112
+    LoadedX = 327
+    LoadedY = 53
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = True
+    Width = 112
+    WordWrap = True
+    X = 327
+    Y = 53
+  End
+
+  Begin Label lblplayer1
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = "0"
+    DrawOnPaint = True
+    Enabled = True
+    FocusOrder = 0
+    FontColor = "&HFFFFFF"
+    FontSize = 50
+    GlobalX = 0
+    GlobalY = 0
+    Height = 55
+    LoadedHeight = 55
+    LoadedWidth = 70
+    LoadedX = 299
+    LoadedY = 487
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TableViewOrder = 0
+    TableViewVisible = True
+    TableViewWidth = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 70
+    WordWrap = True
+    X = 299
+    Y = 487
+  End
+
+  Begin Label lblplayer2
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = "0"
+    DrawOnPaint = True
+    Enabled = True
+    FocusOrder = 0
+    FontColor = "&HFFFFFF"
+    FontSize = 50
+    GlobalX = 0
+    GlobalY = 0
+    Height = 57
+    LoadedHeight = 57
+    LoadedWidth = 63
+    LoadedX = 298
+    LoadedY = 545
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TableViewOrder = 0
+    TableViewVisible = True
+    TableViewWidth = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 63
+    WordWrap = True
+    X = 298
+    Y = 545
+  End
+
+  Begin Label Label3
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = "Tic Tac Toe"
+    Cursor = "OpenHandCursor"
+    DrawOnPaint = True
+    Enabled = True
+    FocusOrder = 0
+    FontColor = "&HFFFFFF"
+    FontSize = 28
+    GlobalX = 0
+    GlobalY = 0
+    Height = 44
+    LoadedHeight = 44
+    LoadedWidth = 176
+    LoadedX = 158
+    LoadedY = 1
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TableViewOrder = 0
+    TableViewVisible = True
+    TableViewWidth = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 176
+    WordWrap = True
+    X = 158
+    Y = 1
+  End
+
+  Begin CommandButton cmdstart
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = "Start"
+    Checked = False
+    DrawOnPaint = True
+    Enabled = True
+    Flat = False
+    FocusOrder = 0
+    GlobalX = 0
+    GlobalY = 0
+    Height = 34
+    LoadedHeight = 34
+    LoadedWidth = 90
+    LoadedX = 23
+    LoadedY = 498
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 90
+    X = 23
+    Y = 498
+  End
+
+  Begin CommandButton cmdreset
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = "Reset"
+    Checked = False
+    DrawOnPaint = True
+    Enabled = True
+    Flat = False
+    FocusOrder = 0
+    GlobalX = 0
+    GlobalY = 0
+    Height = 34
+    LoadedHeight = 34
+    LoadedWidth = 90
+    LoadedX = 23
+    LoadedY = 553
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 90
+    X = 23
+    Y = 553
+  End
+
+  Begin CommandButton cmdhelp
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = "Help"
+    Checked = False
+    DrawOnPaint = True
+    Enabled = True
+    Flat = False
+    FocusOrder = 0
+    GlobalX = 0
+    GlobalY = 0
+    Height = 34
+    LoadedHeight = 34
+    LoadedWidth = 90
+    LoadedX = 369
+    LoadedY = 497
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 90
+    X = 369
+    Y = 497
+  End
+
+  Begin CommandButton cmdquit
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = "Quit"
+    Checked = False
+    DrawOnPaint = True
+    Enabled = True
+    Flat = False
+    FocusOrder = 0
+    GlobalX = 0
+    GlobalY = 0
+    Height = 34
+    LoadedHeight = 34
+    LoadedWidth = 89
+    LoadedX = 370
+    LoadedY = 553
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 89
+    X = 370
+    Y = 553
+  End
+
+  Begin CommandButton cmdplayer1
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = "player1"
+    Checked = False
+    DrawOnPaint = True
+    Enabled = True
+    Flat = False
+    FocusOrder = 0
+    GlobalX = 0
+    GlobalY = 0
+    Height = 40
+    LoadedHeight = 40
+    LoadedWidth = 167
+    LoadedX = 119
+    LoadedY = 497
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 167
+    X = 119
+    Y = 497
+  End
+
+  Begin CommandButton cmdplayer2
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = "player2"
+    Checked = False
+    DrawOnPaint = True
+    Enabled = True
+    Flat = False
+    FocusOrder = 0
+    GlobalX = 0
+    GlobalY = 0
+    Height = 40
+    LoadedHeight = 40
+    LoadedWidth = 166
+    LoadedX = 120
+    LoadedY = 555
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 166
+    X = 120
+    Y = 555
+  End
+
+  Begin CommandButton cmd2
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = ""
+    Checked = False
+    DrawOnPaint = True
+    Enabled = False
+    Flat = False
+    FocusOrder = 0
+    FontSize = 125
+    GlobalX = 0
+    GlobalY = 0
+    Height = 135
+    LoadedHeight = 135
+    LoadedWidth = 149
+    LoadedX = 165
+    LoadedY = 45
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 149
+    X = 165
+    Y = 45
+  End
+
+  Begin CommandButton cmd3
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = ""
+    Checked = False
+    DrawOnPaint = True
+    Enabled = False
+    Flat = False
+    FocusOrder = 0
+    FontSize = 125
+    GlobalX = 0
+    GlobalY = 0
+    Height = 134
+    LoadedHeight = 134
+    LoadedWidth = 128
+    LoadedX = 317
+    LoadedY = 46
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 128
+    X = 317
+    Y = 46
+  End
+
+  Begin CommandButton cmd4
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = ""
+    Checked = False
+    DrawOnPaint = True
+    Enabled = False
+    Flat = False
+    FocusOrder = 0
+    GlobalX = 0
+    GlobalY = 0
+    Height = 142
+    LoadedHeight = 142
+    LoadedWidth = 131
+    LoadedX = 33
+    LoadedY = 181
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 131
+    X = 33
+    Y = 181
+  End
+
+  Begin CommandButton cmd5
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = ""
+    Checked = False
+    DrawOnPaint = True
+    Enabled = False
+    Flat = False
+    FocusOrder = 0
+    GlobalX = 0
+    GlobalY = 0
+    Height = 143
+    LoadedHeight = 143
+    LoadedWidth = 147
+    LoadedX = 168
+    LoadedY = 181
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 147
+    X = 168
+    Y = 181
+  End
+
+  Begin CommandButton cmd6
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = ""
+    Checked = False
+    DrawOnPaint = True
+    Enabled = False
+    Flat = False
+    FocusOrder = 0
+    GlobalX = 0
+    GlobalY = 0
+    Height = 143
+    LoadedHeight = 143
+    LoadedWidth = 128
+    LoadedX = 317
+    LoadedY = 181
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 128
+    X = 317
+    Y = 181
+  End
+
+  Begin CommandButton cmd7
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = ""
+    Checked = False
+    DrawOnPaint = True
+    Enabled = False
+    Flat = False
+    FocusOrder = 0
+    GlobalX = 0
+    GlobalY = 0
+    Height = 129
+    LoadedHeight = 129
+    LoadedWidth = 132
+    LoadedX = 32
+    LoadedY = 327
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 132
+    X = 32
+    Y = 327
+  End
+
+  Begin CommandButton cmd8
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = ""
+    Checked = False
+    DrawOnPaint = True
+    Enabled = False
+    Flat = False
+    FocusOrder = 0
+    GlobalX = 0
+    GlobalY = 0
+    Height = 130
+    LoadedHeight = 130
+    LoadedWidth = 148
+    LoadedX = 167
+    LoadedY = 326
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 148
+    X = 167
+    Y = 326
+  End
+
+  Begin CommandButton cmd9
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = ""
+    Checked = False
+    DrawOnPaint = True
+    Enabled = False
+    Flat = False
+    FocusOrder = 0
+    GlobalX = 0
+    GlobalY = 0
+    Height = 129
+    LoadedHeight = 129
+    LoadedWidth = 127
+    LoadedX = 317
+    LoadedY = 327
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 127
+    X = 317
+    Y = 327
+  End
+
+  Begin Label topbar
+    Background = "&H"
+    Caption = ""
+    DrawOnPaint = True
+    Enabled = False
+    FontSize = 20
+    GlobalX = 0
+    GlobalY = 0
+    Height = 15
+    LoadedHeight = 15
+    LoadedWidth = 400
+    LoadedX = 40
+    LoadedY = 170
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = True
+    Width = 400
+    WordWrap = True
+    X = 40
+    Y = 170
+  End
+
+  Begin Label rightbar
+    Background = "&H"
+    Caption = ""
+    DrawOnPaint = True
+    Enabled = False
+    FontSize = 28
+    GlobalX = 0
+    GlobalY = 0
+    Height = 400
+    LoadedHeight = 400
+    LoadedWidth = 15
+    LoadedX = 308
+    LoadedY = 49
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = True
+    Width = 15
+    WordWrap = True
+    X = 308
+    Y = 49
+  End
+
+  Begin Label bottombar
+    Background = "&H"
+    Caption = ""
+    DrawOnPaint = True
+    Enabled = False
+    GlobalX = 0
+    GlobalY = 0
+    Height = 15
+    LoadedHeight = 15
+    LoadedWidth = 400
+    LoadedX = 38
+    LoadedY = 316
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = True
+    Width = 400
+    WordWrap = True
+    X = 38
+    Y = 316
+  End
+
+  Begin Label left bar
+    Background = "&H"
+    Caption = ""
+    DrawOnPaint = True
+    Enabled = False
+    FontSize = 50
+    GlobalX = 0
+    GlobalY = 0
+    Height = 400
+    LoadedHeight = 400
+    LoadedWidth = 15
+    LoadedX = 158
+    LoadedY = 48
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = True
+    Width = 15
+    WordWrap = True
+    X = 158
+    Y = 48
+  End
+
+  Begin Label lblclickstart
+    Caption = "Click Start to play"
+    DrawOnPaint = True
+    Enabled = True
+    FontColor = "&HFFFFFF"
+    FontSize = 45
+    GlobalX = 0
+    GlobalY = 0
+    Height = 221
+    LoadedHeight = 221
+    LoadedWidth = 416
+    LoadedX = 47
+    LoadedY = 140
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = True
+    Width = 416
+    WordWrap = True
+    X = 47
+    Y = 140
+  End
+
+End Form
+/*
+Author:Yuya Oguchiy
+Tic Tac Toe
+09/20/12
+Version1.4
+*/
+
+
+/*
+Example
+Private Sub CommandButton3_OnEvent()
+  if X_Turn then
+    Label1.caption="X"
+    X_Turn=false
+  else
+    Label1.caption="O"
+    X_Turn=true
+  end if
+End Sub
+*/
+
+
+
+Dim X_Turn as boolean
+dim myname1 as string
+dim myname2 as string
+
+/*
+MAKE SURE THAT YOU CAN NOT PLAY THE GAME UNTIL THE PERSON CLICK ON "PLAY"
+Type in player names in the input box to show it on cmdplayers 
+*/
+
+Private Sub cmdstart_OnEvent()
+  lblclickstart.visible = False
+  myname1 = inputbox("what is first player's name?")
+  cmdplayer1.caption = myname1 & " (O) " 
+  myname2 = inputbox("What is second player's name?")
+  cmdplayer2.caption = myname2 & " (X) "
+  msgbox "Hello " & myname1 & " and " & myname2 & " lets play Tic Tac Toe!"
+ cmd1.enabled = true
+ cmd2.enabled = true
+ cmd3.enabled = true
+ cmd4.enabled = true
+ cmd5.enabled = true
+ cmd6.enabled = true
+ cmd7.enabled = true
+ cmd8.enabled = true
+ cmd9.enabled = true
+ lbl1.enabled = true
+ lbl2.enabled = true
+ lbl3.enabled = true
+ lbl4.enabled = true
+ lbl5.enabled = true
+ lbl6.enabled = true
+ lbl7.enabled = true
+ lbl8.enabled = true
+ lbl9.enabled = true
+ /*
+  end if
+ */ 
+End Sub
+
+
+
+Private Sub cmdquit_OnEvent()
+  end
+End Sub
+
+/*
+reset = make all the turned off cmd of the squares to 
+visible so that you can play next game by clicking on it
+*/
+
+Private Sub cmdreset_OnEvent()
+  cmd1.visible = true
+  cmd2.visible = true
+  cmd3.visible = true
+  cmd4.visible = true
+  cmd5.visible = true
+  cmd6.visible = true
+  cmd7.visible = true
+  cmd8.visible = true
+  cmd9.visible = true
+   
+End Sub
+
+
+/*
+display the help when clicked
+*/
+
+Private Sub cmdhelp_OnEvent()
+  msgbox "Click on start to start the game. Click on a player to add a point."
+  msgbox "Your objective is to make vertical or horizontal line of three  of your figures figures. Player1 plays circle (o) and Player2 plays cross (X). Player1 will always go first on the first round and it will alternate every turn.If you win the match, click your name on the bottom of your scrren and you will gain a point. If its a draw, press reset and you may begin your next game. First one to reach 5 points wins the game."
+End Sub
+
+/*
+if its X turn, then display X on lbl,
+make cmd invisible.
+if its not X turn, then display O on lbl
+make the cmd invisible
+repeat with all the box from 1-9
+*/
+
+Private Sub cmd1_OnEvent()
+  cmd1.visible = false
+  If X_turn then
+  lbl1.caption = "X"
+  X_turn = false
+ else
+  lbl1.caption = "O"
+  X_turn = True
+  end if
+End Sub
+
+
+Private Sub cmd2_OnEvent()
+  cmd2.visible = false
+  If X_turn then
+  lbl2.caption = "X"
+  X_turn = false
+ else
+  lbl2.caption = "O"
+  X_turn = True
+  end if
+End Sub
+
+
+
+Private Sub cmd3_OnEvent()
+  cmd3.visible = false
+  If X_turn then
+  lbl3.caption = "X"
+  X_turn = false
+ else
+  lbl3.caption = "O"
+  X_turn = True
+  end if
+End Sub
+
+
+
+Private Sub cmd4_OnEvent()
+  cmd4.visible = false
+  If X_turn then
+  lbl4.caption = "X"
+  X_turn = false
+ else
+  lbl4.caption = "O"
+  X_turn = True
+  end if
+End Sub
+
+
+
+Private Sub cmd5_OnEvent()
+  cmd5.visible = false
+  If X_turn then
+  lbl5.caption = "X"
+  X_turn = false
+ else
+  lbl5.caption = "O"
+  X_turn = True
+  end if
+End Sub
+
+
+
+Private Sub cmd6_OnEvent()
+  cmd6.visible = false
+  If X_turn then
+  lbl6.caption = "X"
+  X_turn = false
+ else
+  lbl6.caption = "O"
+  X_turn = True
+  end if
+End Sub
+
+
+
+Private Sub cmd7_OnEvent()
+  cmd7.visible = false
+  If X_turn then
+  lbl7.caption = "X"
+  X_turn = false
+ else
+  lbl7.caption = "O"
+  X_turn = True
+  end if
+End Sub
+
+
+
+Private Sub cmd8_OnEvent()
+  cmd8.visible = false
+  If X_turn then
+  lbl8.caption = "X"
+  X_turn = false
+ else
+  lbl8.caption = "O"
+  X_turn = True
+  end if
+End Sub
+
+
+
+Private Sub cmd9_OnEvent()
+  cmd9.visible = false
+  If X_turn then
+  lbl9.caption = "X"
+  X_turn = false
+ else
+  lbl9.caption = "O"
+  X_turn = True
+  end if
+End Sub
+
+/*
+when click on the cmd player1,
+add counter by 1.
+if you get to 5, then display you win and reset to both player count to 0
+display the number on the lblplayers
+repeat same with player 2
+*/
+
+dim myCounter1 as integer
+
+
+
+Private Sub cmdplayer1_OnEvent()
+  myCounter1 = myCounter1 + 1
+  lblplayer1.caption = myCounter1
+  
+  if myCounter1 > 4 then
+    msgbox(myname1 & " Wins!")
+    myCounter1 = 0
+    mycounter2 = 0
+  lblplayer1.caption = myCounter1
+  lblplayer2.caption = myCounter2
+  cmd1.visible = true
+  cmd2.visible = true
+  cmd3.visible = true
+  cmd4.visible = true
+  cmd5.visible = true
+  cmd6.visible = true
+  cmd7.visible = true
+  cmd8.visible = true
+  cmd9.visible = true
+  endif
+End Sub
+
+dim mycounter2 as integer
+
+Private Sub cmdplayer2_OnEvent()
+  myCounter2 = myCounter2 + 1
+  lblplayer2.caption = myCounter2
+  
+  if myCounter2 > 4 then
+    msgbox(myname2 & " Wins!")
+    mycounter1 = 0
+    myCounter2 = 0
+    lblplayer1.caption = myCounter1
+    lblplayer2.caption = myCounter2
+    cmd1.visible = true
+  cmd2.visible = true
+  cmd3.visible = true
+  cmd4.visible = true
+  cmd5.visible = true
+  cmd6.visible = true
+  cmd7.visible = true
+  cmd8.visible = true
+  cmd9.visible = true
+  endif
+End Sub
+
+
+
